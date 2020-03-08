@@ -7,7 +7,7 @@
   "description": "A PWA basic calculator",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "https://localhost:8080/",
+  "start_url": "https://https://pwa-web-calculator.herokuapp.com/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
