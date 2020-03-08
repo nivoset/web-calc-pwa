@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --env.mode production",
     "postinstall": "npm run build",
-    "start": "npx http-server dist -g",
+    "start": "npx http-server dist -g -c 604800 -r",
     "dev": "npx webpack-dev-server --env.mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
