@@ -1,12 +1,12 @@
 {
-  "name": "litElementPage",
+  "name": "web-calculator-pwa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --env.mode production",
     "postinstall": "npm run build",
-    "start": "npx http-server dist -g true",
+    "start": "npx http-server dist -g",
     "dev": "npx webpack-dev-server --env.mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
