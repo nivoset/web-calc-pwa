@@ -1,6 +1,6 @@
 {
   "name": "PWA Calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "short_name": "Calculator",
   "theme_color": "#ffa500",
   "background_color": "#000000",

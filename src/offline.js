@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
@@ -7,6 +7,7 @@ const CACHE_URLS = [
   './', // Alias for index.html
   './main.js',
   "./offline.js",
+  "./manifest.json",
 ];
 
 // The install handler takes care of pre-caching the resources we always need.
