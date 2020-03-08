@@ -1,8 +1,11 @@
 {
   "name": "PWA Calculator",
+  "version": "1.0.0",
+  "manifest_version": 2,
   "short_name": "Calculator",
   "theme_color": "#ffa500",
   "background_color": "#000000",
+  "description": "A PWA basic calculator",
   "display": "standalone",
   "Scope": "/",
   "start_url": "https://localhost:8080/",
