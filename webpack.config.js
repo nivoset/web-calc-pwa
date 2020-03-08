@@ -32,7 +32,8 @@ module.exports = ({ mode }) => {
       new CopyPlugin([
         { from: "src/images", to: 'images' },
         { from: "src/manifest.json", to: '.' },
-        { from: "src/offline.js", to: '.' }
+        { from: "src/offline.js", to: '.' },
+        { from: "src/robots.txt", to: '.' },
       ]),
     ],
     devtool: mode === 'development' ? 'source-map' : 'none' 
